@@ -87,6 +87,12 @@ p.lead {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+  background-color: rgba(155, 77, 77, 0.61);
+  text-shadow: 0px 0px 20px #fbfbfb
+  color: rgb(107, 22, 22)!important;
+  padding-right: 10px;
+  padding-left: 10px;
+  /* text-shadow: -1px -1px 0 #067, 1px -1px 0 #067, -1px 1px 0 #067, 1px 1px 0 #067; */
 }
 
 #sideNav .navbar-toggler:focus {
@@ -117,9 +123,9 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
+    max-width: 14rem;
     max-height: 15rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid rgba(255, 255, 255, 0.5);
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -191,3 +197,7 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+/* li {
+  background-color: rgba(201, 76, 76, 0.3);
+} */
