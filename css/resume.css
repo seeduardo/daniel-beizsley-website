@@ -189,7 +189,7 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   background-image: url("../img/banner.jpg")!important;
-  /* background-color: rgba(151, 214, 214, 1) !important; */
+  background-color: rgba(168, 136, 136, 0.7)!important;
 }
 
 .text-primary {
