@@ -72,7 +72,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: rgba(151, 214, 214, 1);
+  background-color: rgba(168, 136, 136, 0.7);
 }
 
 .dev-icons {
@@ -87,9 +87,9 @@ p.lead {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
-  background-color: rgba(155, 77, 77, 0.61);
-  text-shadow: 0px 0px 20px #fbfbfb
-  color: rgb(107, 22, 22)!important;
+  background-color: rgba(168, 136, 136, 0.35);
+  text-shadow: 0px 0px 20px #070000;
+  color: #ffffffcc;
   padding-right: 10px;
   padding-left: 10px;
   /* text-shadow: -1px -1px 0 #067, 1px -1px 0 #067, -1px 1px 0 #067, 1px 1px 0 #067; */
@@ -97,6 +97,12 @@ p.lead {
 
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
+}
+
+#sideNav .navbar-toggler, .navbar-brand {
+  background-color: rgba(168, 136, 136, 0.35)!important;
+  text-shadow: 0px 0px 20px #070000!important;
+  color: #ffffffcc!important;
 }
 
 @media (min-width: 992px) {
@@ -125,7 +131,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 14rem;
     max-height: 15rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.5);
+    border: 0.5rem solid rgba(168, 136, 136, 0.35);
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -187,15 +193,16 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-  color: rgba(151, 214, 214, 1) !important;
+  color: rgba(168, 136, 136, 0.7)!important;
 }
 
 a {
-  color: rgba(151, 214, 214, 1);
+  color: rgba(168, 136, 136, 0.7);
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #824027!important;
+  text-shadow: 0px 0px 20px #ffffff!important;
 }
 
 /* li {
